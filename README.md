@@ -1,6 +1,8 @@
 ## Install
- After cloning the repository, install the required dependencies by running
+ Clone the repository and install the required dependencies by running
  ```sh
+ git clone git@github.com:Chima1707/jobbatical.git
+ cd jobbatical
  npm install
  ```
 
@@ -33,7 +35,7 @@ Or run this command, to set up the `DATABASE_URL` and also run the application a
 DATABASE_URL=postgres://kjal0sbv1t:gwrxrzieuj@assignment.codsssqklool.eu-central-1.rds.amazonaws.com:5432/kjal0sbv1t_db npm run start
 ```
 
-Open [front-end application](http://localhost:8080/) to view the frontend application
+Open [front-end application](http://localhost:8000/) to view the frontend application
 
 The Backend services, can be found at
 [top active users list](http://localhost:8000/topActiveUsers?page=1&week=2015-01-21) 
