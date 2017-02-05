@@ -1,0 +1,32 @@
+{
+  "name": "jobbatical",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "npm run create && node test/test.js",
+    "create": "node test/create-tables.js",
+    "start": "npm run create && node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chima1707/jobbatical.git"
+  },
+  "author": "Chima Alaebo <xhimat123@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Chima1707/jobbatical/issues"
+  },
+  "homepage": "https://github.com/Chima1707/jobbatical#readme",
+  "dependencies": {
+    "async": "2.1.4",
+    "boom": "4.2.0",
+    "hapi": "16.1.0",
+    "hapi-postgres-connection": "6.1.0",
+    "inert": "4.1.0",
+    "joi": "10.2.1",
+    "moment": "2.17.1"
+  },
+  "devDependencies": {
+    "tape": "4.6.3"
+  }
+}
